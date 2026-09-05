@@ -1,0 +1,26 @@
+# 编译和测试产物
+bin/
+portable/
+qa/
+tools/
+*.zip
+*.tmp
+*.log
+
+# 本机开发环境
+.vs/
+.vscode/
+*.user
+*.suo
+
+# 用户聊天数据和密钥永不进入仓库
+chat-settings.json
+chat-memory.json
+*.key
+.env
+.env.*
+
+# 已移除角色的历史分析文档
+docs/素材动作映射.md
+docs/官方角色设定.md
+
